@@ -1,0 +1,42 @@
+ecommerce-app/
+├── backend/
+│   ├── config/
+│   │   ├── db.js
+│   │   └── mpesa.config.js
+│   ├── controllers/
+│   │   ├── mpesa.controller.js
+│   │   ├── orders.controller.js
+│   │   └── products.controller.js
+│   ├── models/
+│   │   ├── Order.js
+│   │   └── Product.js
+│   ├── routes/
+│   │   ├── mpesa.routes.js
+│   │   ├── order.routes.js
+│   │   └── product.routes.js
+│   ├── services/
+│   │   ├── mpesa.auth.js
+│   │   └── mpesa.stkpush.js
+│   ├── .env
+│   └── server.js
+├── frontend/
+│   ├── components/
+│   │   ├── Cart.js
+│   │   ├── Checkout.js
+│   │   ├── Header.js
+│   │   ├── ProductCard.js
+│   │   └── ProductGrid.js
+│   ├── context/
+│   │   └── CartContext.js
+│   ├── pages/
+│   │   ├── api/
+│   │   ├── cart.js
+│   │   ├── index.js
+│   │   ├── success.js
+│   │   └── _app.js
+│   ├── public/
+│   │   └── images/
+│   ├── styles/
+│   │   └── globals.css
+│   └── package.json
+└── README.md
